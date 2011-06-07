@@ -1,9 +1,3 @@
--- MySQL Administrator dump 1.4
---
--- ------------------------------------------------------
--- Server version	5.1.44
-
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -13,17 +7,8 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-
---
--- Create schema yester02
---
-
 CREATE DATABASE IF NOT EXISTS yester02;
 USE yester02;
-
---
--- Definition of table `yester02`.`comments`
---
 
 DROP TABLE IF EXISTS `yester02`.`comments`;
 CREATE TABLE  `yester02`.`comments` (
@@ -35,17 +20,10 @@ CREATE TABLE  `yester02`.`comments` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `yester02`.`comments`
---
-
 /*!40000 ALTER TABLE `comments` DISABLE KEYS */;
 LOCK TABLES `comments` WRITE;
 UNLOCK TABLES;
 /*!40000 ALTER TABLE `comments` ENABLE KEYS */;
-
-
-
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
