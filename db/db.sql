@@ -7,11 +7,11 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-CREATE DATABASE IF NOT EXISTS yester02;
-USE yester02;
+CREATE DATABASE IF NOT EXISTS disastersnews;
+USE disastersnews;
 
-DROP TABLE IF EXISTS `yester02`.`comments`;
-CREATE TABLE  `yester02`.`comments` (
+DROP TABLE IF EXISTS `disastersnews`.`comments`;
+CREATE TABLE  `disastersnews`.`comments` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `id_disaster` int(11) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
